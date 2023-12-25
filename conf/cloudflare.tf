@@ -8,9 +8,11 @@ terraform {
 }
 
 provider "cloudflare" {
+  #environmental variable can be set
 }
 
 variable "zone_id" {
+  #environmental variable can be set
 }
 
 variable "doamin" {
